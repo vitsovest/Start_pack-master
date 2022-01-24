@@ -1,0 +1,99 @@
+.navbar-brand{
+  width: 264px;
+  height: 264px;
+  border-radius: 50%;
+  background-color: $main_color;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 2;
+  span{
+    width: 100%;
+    font-size: 14px;
+    color: #020202;
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    position: relative;
+    top: -80px;
+  }
+}
+
+header{
+  position: relative;
+  top: -47px;
+  .navbar-nav{
+    background-color: $main_color;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 190px;
+    position: relative;
+    left: -50px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 40px 10px 30px;
+    width: max-content;
+    .nav-link{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      margin-left: 12px;
+      transition: 0.4s ease;
+      &:hover{
+        color: $lime_green;
+      }
+    }
+    .active{
+      color: $lime_green;
+    }
+    .language{
+      li{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: $main_color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        position: relative;
+        margin-right: 15px;
+        left: 40px;
+        transition: 0.4s ease;
+        &:hover{
+          background-color: $lime_green;
+          color: $main_color;
+        }
+      }
+        .active{
+          background-color: $lime_green;
+          color: $main_color;
+        }
+    }
+  }
+  .phonenum{
+    background-color: $main_color;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 190px;
+    color: $lime_green;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 40px 10px 30px;
+    width: max-content;
+  }
+}
+
+.language{
+  position: absolute;
+  left: 0;
+  bottom: -86px;
+  ul{
+    display: flex;
+  }
+}
