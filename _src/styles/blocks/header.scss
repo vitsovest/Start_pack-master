@@ -1,3 +1,4 @@
+/*Circle with brand logo and name*/
 .navbar-brand{
   width: 264px;
   height: 264px;
@@ -22,6 +23,7 @@
     top: -80px;
   }
 }
+/*END Circle with brand logo and name*/
 
 header{
   position: relative;
@@ -86,6 +88,10 @@ header{
     line-height: 24px;
     padding: 10px 40px 10px 30px;
     width: max-content;
+    transition: 0.4s ease;
+    &:hover{
+      color: #020202;
+    }
   }
 }
 
