@@ -1,7 +1,6 @@
 # Custom #
 ###########
 node_modules
-dist
 upload
 deploy.log
 config.yml
